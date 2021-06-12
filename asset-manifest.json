@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Product-Customizer-App/static/css/main.0ec64abc.chunk.css",
+    "main.js": "/Product-Customizer-App/static/js/main.86fe4f3b.chunk.js",
+    "main.js.map": "/Product-Customizer-App/static/js/main.86fe4f3b.chunk.js.map",
+    "runtime-main.js": "/Product-Customizer-App/static/js/runtime-main.389ba22e.js",
+    "runtime-main.js.map": "/Product-Customizer-App/static/js/runtime-main.389ba22e.js.map",
+    "static/js/2.b6563b2c.chunk.js": "/Product-Customizer-App/static/js/2.b6563b2c.chunk.js",
+    "static/js/2.b6563b2c.chunk.js.map": "/Product-Customizer-App/static/js/2.b6563b2c.chunk.js.map",
+    "index.html": "/Product-Customizer-App/index.html",
+    "static/css/main.0ec64abc.chunk.css.map": "/Product-Customizer-App/static/css/main.0ec64abc.chunk.css.map",
+    "static/js/2.b6563b2c.chunk.js.LICENSE.txt": "/Product-Customizer-App/static/js/2.b6563b2c.chunk.js.LICENSE.txt",
+    "static/media/macbook.4e1cd904.jpeg": "/Product-Customizer-App/static/media/macbook.4e1cd904.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.389ba22e.js",
+    "static/js/2.b6563b2c.chunk.js",
+    "static/css/main.0ec64abc.chunk.css",
+    "static/js/main.86fe4f3b.chunk.js"
+  ]
+}
