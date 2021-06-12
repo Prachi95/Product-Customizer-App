@@ -1,0 +1,116 @@
+{
+    "id": 1,
+    "name": "16-inch MacBook Pro",
+    "variant": "Space Grey",
+    "basePrice": 239900,
+    "specifications": [
+        "2.3GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 4.8GHz",
+        "16GB 2666MHz DDR4 memory",
+        "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
+        "1TB SSD storage",
+        "16-inch Retina display with True Tone",
+        "Touch Bar and Touch ID",
+        "Backlit Magic Keyboard - US English"
+    ],
+    "components": [
+        {   
+            "id": "1-Processor",
+            "name": "Processor",
+            "variants": [
+                {
+                    "id":"processor1",
+                    "variantName": "2.3GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 4.8GHz",
+                    "price": 0,
+                    "selected": true
+                },
+                {
+                    "id":"processor2",
+                    "variantName": "2.4GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 5.0GHz",
+                    "price": 20000,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "1-Memory",
+            "name": "Memory",
+            "variants": [
+                {
+                    "id":"memory1",
+                    "variantName": "16GB 2666MHz DDR4 memory",
+                    "price": 0,
+                    "selected": true
+                },
+                {
+                    "id":"memory2",
+                    "variantName": "32GB 2666MHz DDR4 memory",
+                    "price": 40000,
+                    "selected": false
+                },
+                {
+                    "id":"memory3",
+                    "variantName": "64GB 2666MHz DDR4 memory",
+                    "price": 80000,
+                    "selected": false
+                }
+            ]
+
+        },
+        {
+            "id": "1-Graphics",
+            "name": "Graphics",
+            "variants": [
+                {
+                    "id":"graphics1",
+                    "variantName": "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
+                    "price": 0,
+                    "selected": true
+                },
+                {
+                    "id":"graphics2",
+                    "variantName": "AMD Radeon Pro 5500M with 8GB of GDDR6 memory",
+                    "price": 10000,
+                    "selected": false
+                },
+                {
+                    "id":"graphics3",
+                    "variantName": "AMD Radeon Pro 5600M with 8GB of HBM2 memory",
+                    "price": 70000,
+                    "selected": false
+                }
+            ]
+
+        },
+        {
+            "id": "1-Storage",
+            "name": "Storage",
+            "variants": [
+                {
+                    "id":"storage1",
+                    "variantName": "1TB SSD storage",
+                    "price": 0,
+                    "selected": true
+                },
+                {
+                    "id":"storage2",
+                    "variantName": "2TB SSD storage",
+                    "price": 40000,
+                    "selected": false
+                },
+                {
+                    "id":"storage3",
+                    "variantName": "4TB SSD storage",
+                    "price": 100000,
+                    "selected": false
+                },
+                {
+                    "id":"storage4",
+                    "variantName": "8TB SSD storage",
+                    "price": 220000,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+
+}
