@@ -3,18 +3,9 @@
     "name": "16-inch MacBook Pro",
     "variant": "Space Grey",
     "basePrice": 239900,
-    "specifications": [
-        "2.3GHz 8-core 9th-generation Intel Core i9 processor, Turbo Boost up to 4.8GHz",
-        "16GB 2666MHz DDR4 memory",
-        "AMD Radeon Pro 5500M with 4GB of GDDR6 memory",
-        "1TB SSD storage",
-        "16-inch Retina display with True Tone",
-        "Touch Bar and Touch ID",
-        "Backlit Magic Keyboard - US English"
-    ],
     "components": [
         {   
-            "id": "1-Processor",
+            "id": "1-processor",
             "name": "Processor",
             "variants": [
                 {
@@ -32,7 +23,7 @@
             ]
         },
         {
-            "id": "1-Memory",
+            "id": "1-memory",
             "name": "Memory",
             "variants": [
                 {
@@ -57,7 +48,7 @@
 
         },
         {
-            "id": "1-Graphics",
+            "id": "1-graphics",
             "name": "Graphics",
             "variants": [
                 {
@@ -82,7 +73,7 @@
 
         },
         {
-            "id": "1-Storage",
+            "id": "1-storage",
             "name": "Storage",
             "variants": [
                 {
@@ -108,6 +99,42 @@
                     "variantName": "8TB SSD storage",
                     "price": 220000,
                     "selected": false
+                }
+            ]
+        },
+        {   
+            "id": "1-display",
+            "name": "Display",
+            "variants": [
+                {
+                    "id":"display1",
+                    "variantName": "16-inch Retina display with True Tone",
+                    "price": 0,
+                    "selected": true
+                }
+            ]
+        },
+        {   
+            "id": "1-Touchbar",
+            "name": "Touchbar",
+            "variants": [
+                {
+                    "id":"touchbar1",
+                    "variantName": "Touch Bar and Touch ID",
+                    "price": 0,
+                    "selected": true
+                }
+            ]
+        },
+        {   
+            "id": "1-Keyboard",
+            "name": "Keyboard",
+            "variants": [
+                {
+                    "id":"keyboard1",
+                    "variantName": "Backlit Magic Keyboard - US English",
+                    "price": 0,
+                    "selected": true
                 }
             ]
         }

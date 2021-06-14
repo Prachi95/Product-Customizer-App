@@ -14,20 +14,36 @@ export default function Customizer({data}) {
 
     //Functions
     /*
+     * Function used to return list of specifications for product
+    */
+    const SpecList = () => {
+        return prod.components.map(item => {
+            return item.variants.map(v => {
+                if(v.selected) {
+                    return <li className="product-summary-item" key={v.id}>{v.variantName}</li>
+                }
+                return null;
+            })
+        });
+    }
+
+    /*
      * Function used to return list of components for product
     */
     const ComponentList = () => {
         return prod.components.map((item) => {
-            return (
-                <div className="product-component" key={item.id}>
-                    <fieldset>
-                        <legend className="product-component-title">{item.name}</legend>
-                        <div>
-                            <VariantList variants={item.variants} component={item.id}/>
-                        </div>
-                    </fieldset>
-                </div>
-            )
+            if(item.variants.length > 1) {
+                return (
+                    <div className="product-component" key={item.id}>
+                        <fieldset>
+                            <legend className="product-component-title">{item.name}</legend>
+                            <div>
+                                <VariantList variants={item.variants} component={item.id}/>
+                            </div>
+                        </fieldset>
+                    </div>
+                )
+            } else return null; 
         })
     }
 
@@ -44,7 +60,7 @@ export default function Customizer({data}) {
                             {item.variantName}
                         </div>
                         <div className="product-option-label-right">
-                            {item.price} ₹
+                            {item.price !== 0 ? `${item.price} ₹` : null} 
                         </div>
                     </label>
                 </div>
@@ -103,9 +119,7 @@ export default function Customizer({data}) {
                         <div className="container-right-maintitle">Customize your<br/>{prod.name} -<br/>{prod.variant}</div>
                         <div className="product-summary-container">
                             <ul className="product-summary">
-                                {prod.specifications.map((item, index) => {
-                                    return <li className="product-summary-item" key={index}>{item}</li>
-                                })}
+                                <SpecList/>   
                             </ul>
                         </div>
                         <div className="product-component-container">
